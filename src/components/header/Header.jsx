@@ -15,7 +15,7 @@ const Header = () => {
     e.preventDefault();
 
     try {
-      const response = await axios('forecast.json?key=644f6ce0ca9e401ebb891832211707&q=${searchValue}&days=7&aqi=yes&alerts=yes');
+      const response = await axios(`forecast.json?key=644f6ce0ca9e401ebb891832211707&q=${searchValue}&days=7&aqi=yes&alerts=yes`);
       const data = response.data;
       dispatch({ type: "SEARCH_DATA", data });
     } catch (error) {

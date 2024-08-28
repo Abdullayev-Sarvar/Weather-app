@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container } from '../../utils/Container';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const Banner = () => {
     const data = useSelector((state) => state.searchData);
-    console.log(data);
-
+    console.log(data)
    
     return (
         <>
             <Container>
-                <div className='bg-banner bg-cover bg-center rounded-lg h-[450px] mt-[50px]   style={{ boxShadow: "0 4px 15px blueviolet" }}'>
+                <div className='bg-banner bg-cover bg-center rounded-lg h-[450px] mt-[50px] box-shadow'>
                     <div className='bg-linear-color w-full h-full '>
                         {data && ( 
                             <>
