@@ -1,5 +1,5 @@
 import { BsFillMoonFill } from "react-icons/bs"; 
-import { FaSun } from "react-icons/fa"; 
+import { FaSun } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
 import { Container } from "../../utils/Container";
 import { useState } from "react";
