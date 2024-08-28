@@ -1,6 +1,6 @@
 import Banner from "./components/banner/Banner"
 import Header from "./components/header/Header";
-import Map from "./components/map/Map";
+import Map from "./components/map/GoogleMap";
 import Info from "./components/info/Info";
 import "./App.css";
 

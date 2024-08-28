@@ -8,7 +8,7 @@ const Banner = () => {
 
   return (
   <Container>
-  <div className="bg-banner bg-cover bg-center rounded-[20px] h-[400px] mt-[50px] overflow-hidden">
+  <div className="bg-banner bg-cover bg-center rounded-[20px] h-[500px] mt-[50px] overflow-hidden">
     <div className="bg-linear-color w-full h-full flex justify-between items-end p-8">
       {data && (
         <>
@@ -49,5 +49,3 @@ const Banner = () => {
 }
 
 export default Banner
-
-// https://api.weatherapi.com/v1/forecast.json?key=644f6ce0ca9e401ebb891832211707&q=Tashkent&days=7&aqi=yes&alerts=yes

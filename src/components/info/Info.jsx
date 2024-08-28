@@ -16,18 +16,18 @@ const Info = () => {
   return (
     <Container>
       <div
-        className="w-[460px] h-[196px] rounded-[30px] p-8 flex items-center justify-between"
-        style={{ boxShadow: "0 4px 15px blueviolet" }}>
+        className="w-[450px] h-[200px] rounded-3xl p-8 flex items-center justify-between"
+        style={{ boxShadow: "0 5px 15px blueviolet" }}>
         <div className="text-left">
-          <div className="flex gap-4 w-[150px] h-[76px] text-[blueviolet] text-[18px]">
+          <div className="flex gap-4 w-[160px] h-20 text-[blueviolet] text-lg">
             <FontAwesomeIcon className="text-[44px]" icon={faDroplet} />
             <p className="text-black text-[18px]">
               Humidity {data.current.humidity}%
             </p>
           </div>
-          <div className="flex gap-4 w-[150px] h-[66px] text-[blueviolet] text-[18px]">
-            <FontAwesomeIcon className="text-[44px]" icon={faSun} />
-            <p className="text-black text-[18px]">
+          <div className="flex gap-4 w-[150px] h-16 text-[blueviolet] text-lg">
+            <FontAwesomeIcon className="text-5xl" icon={faSun} />
+            <p className="text-black text-lg">
               UV Index: {data.current.uv} out of 10
             </p>
           </div>
